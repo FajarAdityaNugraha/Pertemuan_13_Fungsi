@@ -12,10 +12,10 @@ public class Kubus10 {
         return 6*sisi*sisi;
     }
     public static void main(String[] args) {
-        Scanner input01 = new Scanner(System.in);
+        Scanner input10 = new Scanner(System.in);
         int s,LP,Vol;
         System.out.print("Masukkan panjang sisi : ");
-        s = input01.nextInt();
+        s = input10.nextInt();
         LP = hitungLuasPermukaan(s);
         System.out.println("Luas Persegi adalah : " +LP);
         Vol = hitungVolume(s);
